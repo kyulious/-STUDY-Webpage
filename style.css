@@ -1,0 +1,319 @@
+@import url('https://fonts.google.com/specimen/Raleway');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+.title #feature{
+    color: #fff;
+    text-align: right;
+}
+.title #team{
+    color: #fff;
+    text-align: right;
+}
+.title #sign{
+    color: #fff;
+    text-align: right;
+}
+.nav{
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+}
+.nav >img{
+    position: relative;
+    margin-top: 20%;
+}
+.nav >h1{
+    color: #fff;
+    width: 600px;
+    position: relative;
+    left: 5%;
+    margin-top: 5%;
+}
+.nav >h4{
+    color: #fff;
+    width: 500px;
+    font-weight: lighter;
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+.nav >input{
+    color: #fff;
+    background-color: rgb(86, 210, 241);
+    border-radius: 30px;
+    width: 230px;
+    height: 45px;
+    margin-top: 3%;
+    margin-right: 8%;
+}
+/* 아이템 1번 */
+.item #access{
+    position: absolute;
+    top: 118%;
+    left: 30%;
+}
+.item #access>h4{
+    color: #fff;
+    margin-top: 3%;
+}
+.item #access>div{
+    color: #fff;
+    margin-top: 3%;
+    width: 280px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+/* 아이템 2번 */
+.item #security{
+    position: absolute;
+    top: 117%;
+    left: 53%;
+}
+.item #security>h4{
+    color: #fff;
+    margin-top: 3%;
+}
+.item #security>div{
+    color: #fff;
+    margin-top: 3%;
+    width: 320px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+/* 아이템 3번 */
+.item #collabo{
+    position: absolute;
+    top: 145%;
+    left: 30%;
+}
+.item #collabo>h4{
+    color: #fff;
+    margin-top: 3%;
+}
+.item #collabo>div{
+    color: #fff;
+    margin-top: 3%;
+    width: 320px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+/* 아이템 4번 */
+.item #file{
+    position: absolute;
+    top: 145%;
+    left: 53%;
+}
+.item #file>h4{
+    color: #fff;
+    margin-top: 3%;
+}
+.item #file>div{
+    color: #fff;
+    margin-top: 3%;
+    width: 300px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.title2 >img{
+    position: absolute;
+    top: 175%;
+    left: 20%;
+    width: 30%;
+}
+.title2 >h1{
+    color: #fff;
+    position: absolute;
+    top: 185%;
+    left: 52%;
+    width: 300px;
+}
+.title2 >div{
+    color: #fff;
+    position: absolute;
+    top: 197%;
+    width: 470px;
+    left: 53.5%;
+    text-align: left;
+    line-height: 1.4;
+}
+.title2 >a{
+    color: rgb(146, 195, 199);
+    position: absolute;
+    top: 210%;
+    left: 53.5%;
+}
+
+#quotes{
+    position: absolute;
+    top: 240%;
+    left: 22%;
+}
+/* 박스1번 */
+.boxs #box1{
+    border: 1px solid black;
+    width: 320px;
+    height: 170px;
+    position: absolute;
+    top: 245%;
+    left: 22%;
+    color: #fff;
+    background: rgb(32, 32, 32);
+    box-shadow: 3px 3px 10px 3px rgb(29, 29, 29);
+
+}
+.boxs #box1>div{
+    color: #fff;
+    text-align: left;
+    width: 250px;
+    margin-left: 12%;
+    margin-top: 10%;
+    font-size: 13px;
+}
+.boxs #box1>img{
+    border-radius: 70%;
+    width: 8%;
+    margin-top: 6%;
+    position: relative;
+    margin-left: -68%;
+}
+.boxs #box1>h4{
+    font-size: 11px;
+    position: relative;
+    margin-top: -10%;
+    margin-left: -33%;
+}
+.boxs #box1>small{
+    font-size: 6px;
+    position: relative;
+    margin-top: -10%;
+    margin-left: -20%;
+}
+
+/* 박스2번 */
+.boxs #box2{
+    border: 1px solid black;
+    width: 320px;
+    height: 170px;
+    position: absolute;
+    top: 245%;
+    left: 41%;
+    color: #fff;
+    background: rgb(32, 32, 32);
+    box-shadow: 3px 3px 10px 3px rgb(29, 29, 29);
+
+}
+.boxs #box2>div{
+    color: #fff;
+    text-align: left;
+    width: 250px;
+    margin-left: 12%;
+    margin-top: 10%;
+    font-size: 13px;
+}
+.boxs #box2>img{
+    border-radius: 70%;
+    width: 8%;
+    margin-top: 6%;
+    position: relative;
+    margin-left: -68%;
+}
+.boxs #box2>h4{
+    font-size: 11px;
+    position: relative;
+    margin-top: -10%;
+    margin-left: -30%;
+}
+.boxs #box2>small{
+    font-size: 6px;
+    position: relative;
+    margin-top: -10%;
+    margin-left: -23%;
+}
+/* 박스 3번 */
+.boxs #box3{
+    border: 1px solid black;
+    width: 320px;
+    height: 170px;
+    position: absolute;
+    top: 245%;
+    left: 60%;
+    color: #fff;
+    background: rgb(32, 32, 32);
+    box-shadow: 3px 3px 10px 3px rgb(29, 29, 29);
+
+}
+.boxs #box3>div{
+    color: #fff;
+    text-align: left;
+    width: 250px;
+    margin-left: 12%;
+    margin-top: 10%;
+    font-size: 13px;
+}
+.boxs #box3>img{
+    border-radius: 70%;
+    width: 8%;
+    margin-top: 6%;
+    position: relative;
+    margin-left: -68%;
+}
+.boxs #box3>h4{
+    font-size: 11px;
+    position: relative;
+    margin-top: -10%;
+    margin-left: -36%;
+}
+.boxs #box3>small{
+    font-size: 6px;
+    position: relative;
+    margin-top: -10%;
+    margin-left: -17%;
+}
+.apply{
+    color: #fff;
+    position: absolute;
+    top: 280%;
+    border: 1px solid black;
+    width: 40%;
+    height: 22%;
+    background: rgb(53, 53, 53);
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px 3px rgb(29, 29, 29);
+}
+.apply>h2{
+    padding-top: 5%;
+}
+.apply>div{
+    padding-top: 2%;
+    width: 65%;
+    padding-left: 15%;
+    font-size: 12px;
+}
+.apply #emailinp{
+    border-radius: 20px;
+    width: 47%;
+    height: 16%;
+    margin-top: 3%;
+    margin-left: -8%;
+}
+.apply #sub{
+    border-radius: 20px;
+    width: 22%;
+    margin-left: 3%;
+    height: 18%;
+    color: #fff;
+    background: rgb(60, 169, 177);
+    font-size: 12px;
+}
